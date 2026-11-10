@@ -1,0 +1,54 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+secrets.toml
+
+# IDE and editor settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test and coverage files
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Temporary files and logs
+*.log
+*.tmp
+*.bak
+
+# Build and distribution files
+build/
+dist/
+*.egg-info/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Local database files
+*.sqlite
+*.sqlite3
+*.db
+
+# Note:
+# Keep source code, tests, requirements.txt,
+# documentation, and intended project data.
+# Private or unverified incident records
+data/processed/incidents.json
+data/processed/incidents.json
